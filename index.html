@@ -43,12 +43,12 @@
         </nav>
     </header>
     <main class="l-main bd-container">
-        <div class="resume">
+        <div class="resume" id="area-cv">
             <div class="resume__left">
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
                         <div class="home__data bd-grid">
-                            <img src="https://storage.googleapis.com/kaggle-avatars/images/262831-gr.jpg" alt="" class="home__img">
+                            <img src="images/ben.jpg" alt="" class="home__img">
                             <h1 class="home__title">Baton <b>Tom</b></h1>
                             <h3 class="home__profession">Web Developer</h3>
                         
@@ -67,7 +67,9 @@
                                 <i class="bx bx-phone home__icon"></i>+91-999-999-9999
                             </span>
                         </div>
-                    </div>   
+                    </div> 
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
                 </section>
                 <section class="social section">
                     <h2 class="section-title">SOCIAL</h2>
@@ -280,6 +282,7 @@
     <a href="#" class="scrolltop" id="scrolltop">
         <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
     </a>
+    <script src="js/html2pdf.bundle.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
